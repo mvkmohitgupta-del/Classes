@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+int main(void)
+{
+    int day = 11;
+    int month = 6;
+    int year = 2026;
+    printf("%d/0%d/%d", year, month, day);
+}
+
+
